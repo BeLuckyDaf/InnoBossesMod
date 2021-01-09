@@ -1,0 +1,3 @@
+displayName = MathkingMod
+author = BeLuckyDaf
+version = 0.1
