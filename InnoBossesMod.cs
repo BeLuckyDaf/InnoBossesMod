@@ -2,7 +2,7 @@ using Terraria.ModLoader;
 
 namespace InnoBossesMod
 {
-	public class InnoBossesMod : Mod
-	{
-	}
+    public class InnoBossesMod : Mod
+    {
+    }
 }
