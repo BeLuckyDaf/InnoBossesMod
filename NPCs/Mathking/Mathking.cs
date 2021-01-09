@@ -9,7 +9,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace MathkingMod.NPCs
+namespace InnoBossesMod.NPCs.Mathking
 {
 	class Mathking : ModNPC
 	{

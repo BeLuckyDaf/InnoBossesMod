@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace MathkingMod.Items
+namespace InnoBossesMod.Items
 {
 	public class StrangeInequality : ModItem
 	{
@@ -36,12 +36,12 @@ namespace MathkingMod.Items
 
 		public override bool CanUseItem(Player player)
 		{
-			return !NPC.AnyNPCs(ModContent.NPCType<NPCs.Mathking>());
+			return !NPC.AnyNPCs(ModContent.NPCType<NPCs.Mathking.Mathking>());
 		}
 
 		public override bool UseItem(Player player)
 		{
-			NPC.SpawnOnPlayer(player.whoAmI, ModContent.NPCType<NPCs.Mathking>());
+			NPC.SpawnOnPlayer(player.whoAmI, ModContent.NPCType<NPCs.Mathking.Mathking>());
 			Main.PlaySound(SoundID.Roar, player.position, 0);
 			return true;
 		}
